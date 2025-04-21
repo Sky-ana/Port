@@ -1,12 +1,8 @@
 import './App.css';
-import Linking from './Linking';
+import Linking from './components/Linking.jsx'; // Adjust path if needed
 
 function App() {
-  return (
-    <>
-      <Linking />
-    </>
-  );
+  return <Linking />;
 }
 
 export default App;
