@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import HomePageContent from '../Pages/HomePageContent.jsx';
 
@@ -19,7 +19,6 @@ import ProjectsBalatayo from './ProjectsBalatayo.jsx';
 
 function Linking() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<HomePageContent />} />
         <Route path="/about" element={<AboutPage />} />
@@ -34,7 +33,6 @@ function Linking() {
         <Route path="/abreuprojects" element={<ProjectsAbreu />} />
         <Route path="/balatayoprojects" element={<ProjectsBalatayo />} />
       </Routes>
-    </Router>
   );
 }
 
