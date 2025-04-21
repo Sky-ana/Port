@@ -15,7 +15,7 @@ const HomePageContent = () => {
     <div className="relative">
       <div className="absolute pointer-events-none z-[-1] w-full h-full overflow-hidden">
         <img
-          src="/assets/Earth.svg"
+          src="/Port/assets/Earth.svg"
           alt="Earth"
           className="absolute left-20 top-20 w-[600px] h-auto object-contain md:left-60 md:w-[800px] lg:left-80 lg:w-[900px] lg:top-1 xl:left-130 xl:w-[1200px] xl:top-[-4%] 2xl:left-150 2xl:w-[1800px] 2xl:top-[-5%]"
         />
@@ -23,7 +23,7 @@ const HomePageContent = () => {
 
       <div className="absolute pointer-events-none z-[-1] w-full h-full overflow-hidden">
         <img
-          src="/assets/Moon.svg"
+          src="/Port/assets/Moon.svg"
           alt="Moon"
           className="absolute left-[-25%] top-480 w-[600px] h-auto object-contain md:w-[800px] lg:w-[900px] lg:top-520 xl:w-[1200px] xl:top-590 2xl:w-[1800px] 2xl:top-700 2xl:left-180"
         />
