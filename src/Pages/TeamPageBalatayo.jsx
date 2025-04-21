@@ -8,7 +8,7 @@ import ProjectsSlider from '../Components/ProjectsSlider.jsx';
 import Rocket from '../assets/Rocket.png';
 import CAD1 from '../assets/CAD1.svg';
 import TRU1 from '../assets/TRU1.svg';
-import DDL1 from '../assets/DDL1.svg';
+import Neptune from '../assets/Neptune.svg';
 
 
 const TeamPageBalatayo = () => {
@@ -18,7 +18,7 @@ const TeamPageBalatayo = () => {
     <div className="relative">
       <div className="absolute pointer-events-none z-[-1] w-full h-full overflow-hidden">
         <img
-          src="/assets/Neptune.svg"
+          src={Neptune}
           alt="Neptune"
           className="absolute top-380 w-[600px] h-auto object-contain md:w-[800px] md:top-390 lg:w-[1000px] lg:top-430 xl:w-[1500px] xl:top-450 2xl:w-[2000px] 2xl:top-680 2xl:left-[-10%]"
         />

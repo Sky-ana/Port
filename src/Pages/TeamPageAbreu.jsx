@@ -10,7 +10,7 @@ import Rocket from '../assets/Rocket.png';
 import CAD1 from '../assets/CAD1.svg';
 import TRU1 from '../assets/TRU1.svg';
 import DDL1 from '../assets/DDL1.svg';
-
+import Mars from '../assets/Mars.svg';
 
 const TeamPageAbreu = () => {
   const images = [CAD1, TRU1, DDL1];
@@ -19,7 +19,7 @@ const TeamPageAbreu = () => {
     <div className="relative">
       <div className="absolute pointer-events-none z-[-1] w-full h-full overflow-hidden">
         <img
-          src="/assets/Mars.svg"
+          src={Mars}
           alt="Neptune"
           className="absolute top-420 w-[600px] h-auto object-contain left-20 md:w-[800px] md:top-480 md:left-45 lg:w-[1000px] lg:top-480 lg:left-60 xl:w-[1500px] xl:left-80 xl:top-520 2xl:w-[2000px] 2xl:top-650 2xl:left-90"
         />

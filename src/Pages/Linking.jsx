@@ -1,8 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-console.log("Linking.jsx loaded");
-
 import HomePageContent from '../Pages/HomePageContent.jsx';
 import AboutPage from '../Pages/AboutPage.jsx';
 import TeamPage from '../Pages/TeamPage.jsx';

@@ -11,7 +11,7 @@ import DDL1 from '../assets/DDL1.svg';
 
 import TeamPortfolioGonzales from '../Components/TeamPortfolioGonzales.jsx';
 import WhatIDoGonzales from '../Components/WhatIDoGonzales.jsx';
-
+import Uranus from '../assets/Uranus.svg';
 
 const TeamPageGonzales = () => {
   const images = [CAD1, TRU1, DDL1];
@@ -20,7 +20,7 @@ const TeamPageGonzales = () => {
     <div className="relative">
       <div className="absolute pointer-events-none z-[-1] w-full h-full overflow-hidden">
         <img
-          src="/assets/Uranus.svg"
+          src={Uranus}
           alt="Neptune"
           className="absolute top-420 w-[600px] h-auto object-contain left-[-20%] md:w-[800px] md:top-480 md:left-[-20%] lg:w-[1000px] lg:top-480 lg:left-[-20%] xl:w-[1500px] xl:left-[-20%] xl:top-520 2xl:w-[2000px] 2xl:top-650 2xl:left-[-20%]"
         />
@@ -37,7 +37,7 @@ const TeamPageGonzales = () => {
           <Link to="/abreu" >  
             <button className='custom-pointer h-6 w-6 bg-[#F1E167] rounded-full border-3 transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-120 hover:opacity-75 cursor-pointer'>  </button>
           </Link>
-
+          
           <Link to="/gonzales" >  
             <button className='custom-pointer h-6 w-6 bg-[#FF4A4A] rounded-full border-3 transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-120 hover:opacity-75 cursor-pointer'> </button>
           </Link>
